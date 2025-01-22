@@ -1,3 +1,4 @@
+import Clients from "../clients/Clients";
 import Header from "../header/header";
 import Tech from "../tecnologies/Tech";
 function Body() {
@@ -6,6 +7,7 @@ function Body() {
         <>
             <Header/>
             <Tech/>
+            <Clients/>
         </>
     );
 }

@@ -7,7 +7,10 @@
 }
 
 body {
-    background-color: #191A25;
+    background: -moz-linear-gradient(180deg, #181A2F 0%, #242E49 58%, #54162B 100%);
+    background: -webkit-linear-gradient(180deg, #181A2F 0%, #242E49 58%, #54162B 100%);
+    background: linear-gradient(180deg, #181A2F 0%, #242E49 58%, #54162B 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#181A2F",endColorstr="#54162B",GradientType=1);
 }
 
 .text-shadow {
