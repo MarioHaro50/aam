@@ -7,7 +7,7 @@ function Clients() {
     return (
         <section className='flex flex-col lg:flex-row justify-evenly items-center gap-11 my-24'>
             <div className=' lg:w-6/12'>
-                <h2 className='text-white text-center pt-16 text-4xl sm:text-5xl font-semibold'>Nuestros clientes</h2>
+                <h2 className='text-white text-center pt-16 text-4xl sm:text-5xl font-semibold'>Our clients</h2>
             </div>
             <div className='wraped flex flex-col items-center lg:w-6/12 '>
                 <div className='show-info flex flex-col items-center'>
