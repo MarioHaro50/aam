@@ -5,7 +5,7 @@ import ford from '../../assets/images/ford.png';
 function Clients() {
 
     return (
-        <section className='flex flex-col lg:flex-row justify-evenly items-center gap-11 my-24'>
+        <section className='flex flex-col lg:flex-row justify-end items-center gap-11 my-24 lg:mx-44'>
             <div className=' lg:w-6/12'>
                 <h2 className='text-white text-center pt-16 text-4xl sm:text-5xl font-semibold'>Our clients</h2>
             </div>
