@@ -34,6 +34,9 @@ export default {
                     DEFAULT: '#f44336',
                     dark: '#ba000d',
                 },
+            },
+            fontSize: {
+                '10xl':'10rem'
             }
         },
     },

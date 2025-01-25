@@ -1,5 +1,5 @@
 .show-info {
-    height: 120px;
+    height: 160px;
     overflow: hidden;
     transition: height .5s;
     interpolate-size: allow-keywords;
@@ -8,8 +8,6 @@
 .show-info:hover {
     height: auto;
 }
-
-
 
 .show-info img {
     transition: 0.5s ease;
@@ -22,6 +20,12 @@
 
 @media (max-width: 1024px) {
     .show-info {
-        height: 95px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .show-info {
+        height: 120px;
     }
 }

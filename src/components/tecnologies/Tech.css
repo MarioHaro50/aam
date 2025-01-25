@@ -1,8 +1,8 @@
-.wraped img {
+.wraped-tech img {
     transition: 0.5s ease;
 }
 
-.wraped:hover> :not(:hover) {
+.wraped-tech > :not(:hover) {
     filter: blur(6px);
     opacity: 0.5;
 }
