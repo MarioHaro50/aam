@@ -1,4 +1,4 @@
-import './Header.css'
+import './header.css'
 import mainVideo from '../../assets/videos/video-header.mp4';
 
 const Header = () => {
