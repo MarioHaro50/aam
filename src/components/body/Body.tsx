@@ -1,13 +1,17 @@
 import Clients from "../clients/Clients";
-import Header from "../header/header";
+import ContactForm from "../contact/Contact";
+import Header from "../header/Header";
 import Tech from "../tecnologies/Tech";
+import Us from "../us/Us";
 function Body() {
 
     return (
         <>
             <Header/>
+            <Us/>
             <Tech/>
             <Clients/>
+            <ContactForm/>
         </>
     );
 }
