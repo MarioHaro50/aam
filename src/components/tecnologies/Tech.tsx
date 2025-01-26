@@ -14,7 +14,7 @@ const Tech = () => {
     return (
         <section className='my-32 mx-5 sm:mx-12 md:mx-16 lg:mx-28 bg-slate-800 rounded-3xl'>
             <h2 className='text-white text-center pt-16 text-5xl lg:text-6xl font-semibold'>Tech Stack</h2>
-            <div className='flex flex-wrap gap-14 md:gap-28 gap-y-16 justify-center mt-6 p-14 wraped-tech'>
+            <div className='flex flex-wrap gap-y-20 gap-x-14 sm:gap-x-16 md:gap-x-16 lg:gap-x-20 xl:gap-x-36 justify-center mt-6 p-14 wraped-tech'>
                 <img className="w-auto h-20 md:h-24 lg:h-30" src={javascript} alt="javascript" />
                 <img className="w-auto h-20 md:h-24 lg:h-30" src={react} alt="React" />
                 <img className="w-auto h-20 md:h-24 lg:h-30" src={angular} alt="Angular" />

@@ -9,7 +9,7 @@ interface ContactFormState {
     message: string;
 }
 
-// Si tienes propiedades, define su tipo. Si no tienes, usa un objeto vacío.
+// eslint-disable-next-line
 interface ContactFormProps {}
 
 class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
@@ -66,7 +66,7 @@ class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
         return (
             <form
                 onSubmit={this.handleSubmit}
-                className="my-10 mx-5 sm:mx-20 md:mx-32 lg:mx-48 xl:mx-96 py-32 px-20 sm:px-24 md:px-32 lg:px-40 bg-rose-900 flex flex-col items-center justify-center rounded-xl"
+                className="my-10 mx-5 sm:mx-20 md:mx-32 lg:mx-48 xl:mx-72 py-32 px-20 sm:px-24 md:px-32 lg:px-44 bg-rose-900 flex flex-col items-center justify-center rounded-xl"
             >
                 <label className="text-white text-xl flex flex-col w-full mb-5">
                     Nombre:
