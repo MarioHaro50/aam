@@ -66,12 +66,13 @@ class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
         return (
             <form
                 onSubmit={this.handleSubmit}
-                className="my-10 mx-5 sm:mx-20 md:mx-32 lg:mx-48 xl:mx-72 py-32 px-20 sm:px-24 md:px-32 lg:px-44 bg-rose-900 flex flex-col items-center justify-center rounded-xl"
+                className="my-10 mx-5 sm:mx-20 md:mx-32 lg:mx-48 xl:mx-72 py-32 px-20 sm:px-24 md:px-32 lg:px-44 border-2 border-red-800 border flex flex-col items-center justify-center rounded-xl"
             >
+                <p className="mb-20 text-4xl text-white">Contactanos</p>
                 <label className="text-white text-xl flex flex-col w-full mb-5">
                     Nombre:
                     <input
-                        className="text-slate-950"
+                        className="text-slate-950 rounded-sm"
                         type="text"
                         name="name" // Asegúrate de agregar este atributo
                         value={this.state.name}
@@ -81,7 +82,7 @@ class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
                 <label className="text-white text-xl flex flex-col w-full mb-5">
                     Email:
                     <input
-                        className="text-slate-950"
+                        className="text-slate-950 rounded-sm"
                         type="email"
                         name="email" // Asegúrate de agregar este atributo
                         value={this.state.email}
@@ -91,7 +92,7 @@ class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
                 <label className="text-white text-xl flex flex-col w-full mb-5">
                     Teléfono:
                     <input
-                        className="text-slate-950"
+                        className="text-slate-950 rounded-sm"
                         type="text"
                         name="phone" // Asegúrate de agregar este atributo
                         value={this.state.phone}
@@ -101,14 +102,14 @@ class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
                 <label className="text-white text-xl flex flex-col w-full mb-5">
                     Mensaje:
                     <textarea
-                        className="text-slate-950"
+                        className="text-slate-950 rounded-sm"
                         name="message" // Asegúrate de agregar este atributo
                         value={this.state.message}
                         onChange={this.handleChange}
                     />
                 </label>
                 <input
-                    className="w-1/3 self-end rounded-sm py-1 px-5 cursor-pointer border-2 border-red-950 font-semibold text-red-950 bg-transparent hover:text-white hover:bg-red-950 duration-300 ease"
+                    className="w-1/3 self-end rounded-sm py-1 px-5 cursor-pointer border-2 border-red-800 font-semibold text-red-800 bg-transparent hover:text-white hover:bg-red-800 duration-300 ease"
                     type="submit"
                     value="Submit"
                 />
