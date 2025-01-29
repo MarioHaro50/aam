@@ -12,9 +12,9 @@ import javascript from '../../assets/images/JavaScript.png'
 
 const Tech = () => {
     return (
-        <section className='my-32 mx-5 sm:mx-12 md:mx-16 lg:mx-28 bg-slate-800 rounded-3xl'>
-            <h2 className='text-white text-center pt-16 text-5xl lg:text-6xl font-semibold'>Tech Stack</h2>
-            <div className='flex flex-wrap gap-y-20 gap-x-14 sm:gap-x-16 md:gap-x-16 lg:gap-x-20 xl:gap-x-36 justify-center mt-6 p-14 wraped-tech'>
+        <section className='my-32 mx-5 sm:mx-20 md:mx-32 lg:mx-48 xl:mx-72'>
+            <h2 className='text-white text-center pt-16 text-5xl lg:text-6xl font-semibold ff-i'>Tech Stack</h2>
+            <div className='flex flex-wrap justify-around gap-y-20 gap-x-14 sm:gap-x-16 md:gap-x-16 lg:gap-x-20 xl:gap-x-20 mt-6 p-14 wraped-tech'>
                 <img className="w-auto h-20 md:h-24 lg:h-30" src={javascript} alt="javascript" />
                 <img className="w-auto h-20 md:h-24 lg:h-30" src={react} alt="React" />
                 <img className="w-auto h-20 md:h-24 lg:h-30" src={angular} alt="Angular" />

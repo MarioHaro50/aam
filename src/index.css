@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: "Inconsolata", serif !important;
+  font-family: "Roboto", serif !important;
 }
 
 body {
@@ -15,6 +15,11 @@ body {
 
 .text-shadow {
     text-shadow: 0px 0px 10px #000;
+}
+
+
+.ff-i {
+    font-family: "Inconsolata", sans-serif !important;
 }
 
 .ff-montserrat {
