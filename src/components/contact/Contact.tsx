@@ -66,7 +66,7 @@ class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
         return (
             <form
                 onSubmit={this.handleSubmit}
-                className="my-10 mx-5 sm:mx-20 md:mx-32 lg:mx-48 xl:mx-72 py-32 px-20 sm:px-24 md:px-32 lg:px-44 border-2 border-red-800 border flex flex-col items-center justify-center rounded-xl"
+                className="my-10 mx-5 sm:mx-20 md:mx-32 lg:mx-48 xl:mx-72 py-32 px-20 sm:px-24 md:px-32 lg:px-44 border-2 border-red-800 flex flex-col items-center justify-center rounded-xl"
             >
                 <p className="mb-20 text-4xl text-white">Contactanos</p>
                 <label className="text-white text-xl flex flex-col w-full mb-5">
