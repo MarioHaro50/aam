@@ -13,7 +13,7 @@ function Body() {
             <Tech/>
             <Clients/>
             {/* <ContactForm/> */}
-            <WhatsAppButton phoneNumber="+525650576133" message="Hola, quiero más información" />
+            <WhatsAppButton phoneNumber="+525650576133" message="Informacion" />
         </>
     );
 }

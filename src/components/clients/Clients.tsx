@@ -40,7 +40,7 @@ function Clients() {
                         className="w-28 md:w-38 lg:w-44 hover:lg:w-52"
                     />
                     <p className="text-white text-lg my-5 mx-8 text-justify">
-                        Se desarrolló una aplicación tipo red social enfocada en visorias de fútbol en México, diseñada específicamente para dispositivos Android utilizando la plataforma Android Studio. La aplicación permite la interacción entre usuarios y ofrece herramientas para facilitar el descubrimiento y la gestión de talentos deportivos en el ámbito futbolístico.
+                        Desarrollamos una aplicación tipo red social enfocada en visorias de fútbol en México, diseñada específicamente para dispositivos Android utilizando la plataforma Android Studio. La aplicación permite la interacción entre usuarios y ofrece herramientas para facilitar el descubrimiento y la gestión de talentos deportivos en el ámbito futbolístico.
                     </p>
                 </div>
             </div>
